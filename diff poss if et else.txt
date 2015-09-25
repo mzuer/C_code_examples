@@ -1,0 +1,38 @@
+if (pluie){
+	if(temperature>0) {
+		printf("routes mouillees");
+	} else {
+		printf("routes enneigees");
+	}
+} else {
+	printf("routes bonnes");
+
+-------------------------------------------------------------
+
+if(pluie&&temperature>0){
+	printf("routes mouillees");
+} else if(pluie&&temperature<0){
+	printf("routes enneigees");
+} else {
+	printf("routes bonnes");
+}
+
+--------------------------------------------------------------
+
+if("pluie&&temperature>0) {
+	printf("routes mouillees");
+} else if(pluie) {
+	printf("routes enneigees");
+} else {
+	printf("routes bonnes");
+}
+
+----------------------------------------------------------------
+
+if(!pluie) {
+	printf("routes bonnes");
+} else if(temperature>0) {
+	printf("routes mouillees);
+} else {
+	printf("routes enneigees);
+}

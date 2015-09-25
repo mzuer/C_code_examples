@@ -1,0 +1,22 @@
+/* quand la boucle doit être exécutée au moins une fois, on peut utiliser la boucle do/while ; étape d'initialisation doit avoir lieu avant le test, est souvent effectuée lors de la mise à jour */
+
+// boucle avec while
+
+printf("Nombre : ");
+scanf("%d",&nombre);
+while(nombre<=0);
+{
+	printf("Nombre : ");
+	scanf("%d",&nombre);
+}
+
+
+// même boucle avec do...while
+
+do
+{
+	printf("Nombre : ");
+	scanf("%d", &nombre);
+	
+}
+while (nombre<=0);

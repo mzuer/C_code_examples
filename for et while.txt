@@ -1,0 +1,15 @@
+// boucle for
+
+for(compteur=0; compteur<3; compteur++)
+{
+	printf("%d\n", compteur);
+}
+
+//équivalent à la boucle while
+
+compteur=0;
+while(compteur<3)
+{
+	printf("%d\n", compteur);
+	compteur++;
+}

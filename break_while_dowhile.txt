@@ -1,0 +1,44 @@
+/* terminer l'exécution d'une boucle avec instruction break ; utile dans le cas de boucle "infinie" */
+
+/// comparaison des différentes boucles
+
+// while
+
+scanf("%d",&nombre);
+while (nombre!=SENTINELLE)
+{
+	total+=nombre;
+	scanf("%d",&nombre);
+}
+
+// while et break
+while(1){
+	scanf("%d",&nombre);
+	if(nombre==SENTINELLE){
+	break;
+	}
+	total+=nombre;
+}
+
+
+
+// do while
+
+do {
+	scanf("%d",&nombre);
+		if(nombre!=SENTINELLE){
+			total+=nombre;
+		}
+} while(nombre!=SENTINELLE);
+
+
+// for et break
+
+for( ; ; ){
+	scanf("%d",&nombre);
+	if(nombre==SENTINELLE){
+	break;
+	}
+	total+=nombre;
+}
+

@@ -1,0 +1,57 @@
+/* switch est utilisée lorsqu'une variable entière sert à prendre une décision conduisant
+à l'exécution d'instructions différentes ; switch teste la valeur de la variable de contrôle
+
+=> comprend une variable de contrôle et une série de clauses
+
+s'il existe une clause correspondant à la valeur de la variable, l'exécution reprend à cet endroit
+sinon, la clause optionnelle "default" est exécutée
+exécution du switch interrompue par un "break"
+
+plusieurs clauses peuvent être regroupées
+
+modèle :
+
+switch (variable) {
+case expression_1:
+	/*instructions*/
+	break;
+case expression_2:
+	/*instructions*/
+	break;
+
+/*etc.*/
+
+default;
+	/*instructions*/
+
+*/
+
+/* parfois on peut écrire un if / else avec switch, ex : 
+
+if(i==1) {
+	printf("un");
+} else if(i==2) {
+	printf("deux");
+} else if(i==3) {
+	printf("trois");
+} else {
+	printf("autre");
+}
+
+
+PEUT AUSSI S'ECRIRE
+
+switch(i) {
+case 1:
+	printf("un");
+	break;
+case 2:
+	printf("deux");
+	break;
+case 3:
+	printf("trois");
+	break;
+default:
+	printf("autre");
+}
+
